@@ -1,0 +1,412 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: white;   
+}
+
+hr{
+    border-color: gray;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.decoration-none{
+    list-style: none;
+    text-decoration: none;
+}
+
+.fixed{
+}
+
+.vh100{
+    height: 100vh;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.red{
+    color: rgba(255, 0, 0, 0.486);
+}
+
+.bg-red{
+    background-color: rgba(255, 0, 0, 0.486);
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+
+.align-center{
+    align-items: center;
+}
+
+header{
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 24px; 
+    font-weight: bold;
+}
+
+header h1{
+    min-width: 175px;
+}
+
+header ul{
+    min-width: 332.5px;
+    margin-right: 22px;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 23px;
+
+}
+
+header ul li a{
+    transition: .25s;
+}
+
+header ul li a:hover{
+    color: rgba(255, 0, 0, 0.486);
+}
+
+.name{
+    margin-right: 162px;
+}
+
+body{
+    background-color: 	#202020;
+}
+
+
+
+.image{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.image-container1{
+    width: 600px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myself{
+    display: inline-block;
+    margin-top: 122px;
+    vertical-align: middle;
+   /*-----Experimenting-------*/
+    position: absolute;
+    
+}
+
+.myself h1{
+    font-size: 3.3rem;
+    width: 100%;
+    padding-bottom: 42px;
+}
+
+/* About section */
+
+.image-container2{
+    flex-basis: 35%;
+    display: inline-block;
+    /*------Experimenting--------*/
+    min-width: 222px;
+    
+}
+
+.about-image{
+    border-radius: 22px;
+    width: 100%;
+}
+
+.about-section{
+    margin-top: 94px;
+    margin-bottom: 94px;
+   padding-top: 22px;
+   padding-left: 182px;    
+   padding-right: 182px;
+   flex-wrap: wrap;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.about-col-2 .container{
+    margin-top: 15px;
+    column-gap: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tab-data {
+    display: none;
+  }
+  
+  .skills-data.active-tab,
+  .experience-data.active-tab,
+  .education-data.active-tab {
+    display: block; 
+  }
+
+.tab-data ul li{
+    list-style: none;
+    margin-top: 4px;
+    font-weight: bold;
+
+    
+}
+
+.tab-data{
+    margin-top: 18px;
+    padding:15px;
+    padding-left: 16px;
+        /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.tab-link:hover{
+    color: rgba(255, 0, 0, 0.486);
+   
+}
+
+.download-btn{
+    margin-top: 42px;
+    border: none;
+    padding: 19px;
+    border-radius: 2px;
+    transition: .15s;
+    cursor: pointer;
+    font-size: 19px;
+    /*---------Experimenting--------*/
+
+}
+
+.download-btn:hover{
+    opacity: .8;
+}
+
+.download-btn:active{
+    opacity: .6;
+}
+
+.services-section{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 133px;   
+}
+
+.services-container{
+    margin-top: 53px;
+    margin-left: 83px;
+    margin-right: 43px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(251px,1fr));
+    grid-gap: 14px;
+}    
+
+
+.services-container span{
+    font-size: 28px;
+}
+
+.heading{
+    font-size: 18px;
+}
+
+.services-container div{
+    /*glass effect*/
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    cursor: pointer;
+    padding: 31px;
+    transition: .15s;
+}
+
+.services-container div:hover{
+    background-color:rgba(253, 27, 27, 0.411) ;
+    transform: translateY(-11px);
+}
+
+.services-container div i{
+    font-size: 51px;
+    margin-bottom: 22px;
+}
+
+.projects-section{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 133px;     
+}
+/*Images in Project Section*/
+div img{
+    width: 100%;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+
+.project-container{
+    margin: 51px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(251px,1fr));
+    grid-gap: 14px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+
+
+.project-container h3{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.project-container p{
+    text-align: left;
+}
+
+
+.project-container i{
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-size: 32px;
+    transition: .15s;
+}
+.project-container i:hover{
+    color: blue;
+}
+
+.project-info{
+    position: relative;
+    overflow: hidden;
+    transition: .15s;
+}
+
+.project-info:hover{
+    transform: translateY(-11px);
+}
+
+.contact-container{
+    margin-top: 122px;
+    justify-content: center;
+    margin-bottom: 62px;
+    column-gap: 12px;
+    flex-wrap: wrap;
+    margin-left: 22px;
+}
+
+.contact-col-1{
+    flex-basis: 35%;
+}
+
+.contact-col-2{
+    flex-basis: 30%;
+    max-width: 376px;
+    
+}
+
+.icons{
+    font-size: 33px;
+    column-gap: 16px;
+
+}
+
+.contact-col-1 p{
+    margin-top: 33px;
+}
+
+.sender-name,
+.sender-email{
+    margin: 12px;
+    height:41px;
+    width: 351px;
+    padding-left: 12px;
+    border: none;
+    color: #202020;
+    outline: none;
+    font-size: 14px;
+}
+
+.sender-message{
+    margin: 12px;
+    height:141px;
+    width: 351px;
+    padding-left: 12px;
+    padding-top:12px ;
+    border: none;
+    color: #202020;
+    outline: none;
+    font-size: 14px;
+}
+
+.submit-btn{
+    margin: 12px;
+    background-color: black;
+    font-weight: bold;
+    padding: 13px;
+    padding-left: 33px;
+    padding-right: 33px;
+    border-radius:23px ;
+    border: none;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.submit-btn:active{
+    opacity: .8;
+}
+
+.copyright-section{
+    padding: 32px;
+    text-align: center;
+    background-color:rgb(113, 121, 126);
+    display: block;
+}
+
+.submit-btn-div{
+    text-align: center;
+}

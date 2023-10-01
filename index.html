@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Bassam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/1755de835d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="vh100">
+        <div class="flex justify-between align-center fixed">
+            <div class="name">
+                <h1>Ali Bassam</h1>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Skills">Skills</a></li>
+                        <li><a href="#Contact">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="image-container1" id="Home">
+            <img class="image" src="images/1-removebg-preview.png">
+        </div>
+
+        <div class="myself">
+            <h1>Hi,<br> I am a<br><span class="red"> Web developer.</span></h1>
+        </div>
+        <div class="donwload-container flex justify-center ">
+            <a href="cv.pdf" download><button class="download-btn bg-red"><span>Download Resume</span></button></a>
+        </div>
+
+
+    </header>
+    <div id="About"></div>
+    <div class="about-section flex justify-between">
+        <div class="image-container2">
+            <img class="about-image" src="images/6_about_section-removebg-preview.png">
+        </div>
+        <div class="about-col-2">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nobis sint. Expedita, quibusdam!
+                Asperiores laboriosam ipsam quas perspiciatis, vel numquam aperiam culpa illo eius sunt, odio, dolore
+                dolor eveniet dolorem eos. Blanditiis, fuga cumque.</p>
+            <div class="container flex">
+                <div class="tab-link" onclick="opentab('skills')">Skills</div>
+                <div class="tab-link" onclick="opentab('experience')">Experience</div>
+                <div class="tab-link" onclick="opentab('education')">Education</div>
+            </div>
+
+            <div class="tab-data skills-data active-tab">
+                <ul>
+                    <li>Web development</li>
+                    <li>HTML <i class="fa-brands fa-html5"></i></li>
+                    <li>CSS <i class="fa-brands fa-css3-alt"></i></li>
+                    <li>JS <i class="fa-brands fa-js"></i></li>
+                </ul>
+            </div>
+            <div class="tab-data experience-data">
+                <ul>
+                    <li>Lorem, ipsum</li>
+                    <li>dolor sit</li>
+                    <li>amet consectetur</li>
+                </ul>
+            </div>
+            <div class="tab-data education-data">
+                <ul>
+                    <li>FSC -> Bahria College</li>
+                    <li>Bs Computer Science -> Bahria University</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="Skills"></div>
+    <div class="services-section">
+        <h1>My Services</h1>
+    </div>
+    <div class="services-container">
+        <div><i class="fa-solid fa-code"></i><br><span class="heading red bold">Web Design</span> <br><br> Lorem ipsum
+            dolor sit amet consectetur
+            adipisicing
+            elit. Ea,
+            corrupti perspiciatis cum cumque omnis totam
+            alias voluptatem suscipit expedita nemo soluta quam?</div>
+        <div><i class="fa-solid fa-crop"></i><br><span class="heading red bold">UI/UX</span><br><br>Lorem ipsum dolor,
+            sit amet consectetur adipisicing
+            elit. Voluptatum veritatis ipsam Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia unde
+            repellat dicta! accusamus reprehenderit minima, non vero perspiciatis earum quis,
+        </div>
+        <div><i class="fa-brands fa-app-store-ios "></i><br><span class="heading red bold">App
+                Design</span><br><br>Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Vel aliquam assumenda consequatur!Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+            Culpa ad ratione quos.</div>
+    </div>
+
+    <div class="projects-section">
+        <h1>Projects</h1>
+    </div>
+    <div class="project-container">
+        <div class="project-info">
+            <img class="project-img" src="images/work-1.jpg" alt="">
+
+            <h3>Branding Agency Website</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A. <br>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </p>
+
+        </div>
+        <div class="project-info">
+            <img src="images/work-2.jpg" alt="">
+
+            <h3>Marketing Agency Website</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque exercitationem quaerat.
+                Voluptatum sunt officia blanditiis aperiam soluta! <br>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </p>
+
+        </div>
+        <div class="project-info">
+            <img src="images/work-3.jpg" alt="">
+
+            <h3>Business Services Website</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut accusamus veritatis libero!s<br>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </p>
+
+        </div>
+    </div>
+    <div id="Contact"></div>
+    <div class="contact-container flex">
+        <div class="contact-col-1 flex-col">
+            <h1>Contact Me</h1>
+            <div>
+                <p>alibassam063@gmail.com</p>
+                <p>+923015897847</p>
+                <p>
+                <ul class="flex decoration-none icons">
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+                </p>
+
+            </div>
+        </div>
+        <div class="contact-col-2">
+            <div class="flex-col">
+                <form action="">
+                    <div><input class="sender-name" type="text" placeholder="Your Name" required>
+                    </div>
+                    <div><input class="sender-email" type="text" placeholder="Your Email" required>
+                    </div>
+                    <div><textarea class="sender-message" cols="30" rows="10" placeholder="Your Message" required></textarea></div>
+                      <div class="submit-btn-div"><button class="submit-btn">Submit</button></div>
+                </form>
+            </div>
+           
+        </div>
+    </div>
+    <hr>
+    <div class="copyright-section">
+        <p>copyright @ Ali Bassam</p>
+        <p>All rights reserved</p>
+    </div>
+   
+    <script>
+        function opentab(tabName) {
+            var i;
+            var x = document.getElementsByClassName("tab-data");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.querySelector("." + tabName + "-data").style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
